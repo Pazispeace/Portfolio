@@ -113,7 +113,7 @@ p {
 .carousel {
   margin: 2rem auto;
   padding: 2rem 0;
-  max-width: 800px;
+  max-width: 80%;
   text-align: center;
   overflow-x: hidden;
   background-color: var(--carousel-bg-color);
@@ -660,6 +660,12 @@ p {
 .social-media svg {
   width: 1.5rem;
   height: 1.5rem;
+}
+
+.testimonials aside>.hero-image-content,
+.testimonials aside>.hero-image-content>.containerg {
+  max-width: 100%;
+  min-width: 340px;
 }
 
 @media screen and (min-width: 768px) {
